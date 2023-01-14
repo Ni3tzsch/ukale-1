@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Parking Sorbonne",
+    "capacity": 150,
+    "occupation": 113
+  },
+  {
+    "id": 2,
+    "name": "Parking Longchamps",
+    "capacity": 28,
+    "occupation": 7
+  },
+  {
+    "id": 3,
+    "name": "Immeuble Mirabel",
+    "capacity": 100,
+    "occupation": 24
+  },
+  {
+    "id": 4,
+    "name": "Parking St. Paul",
+    "capacity": 69,
+    "occupation": 58
+  }
+]
