@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Accueil",
+    "className": "nav-item",
+    "to": "/"
+  },
+  {
+    "name": "A propos",
+    "className": "nav-item",
+    "to": "/about"
+  },
+  {
+    "name": "Parkings",
+    "className": "nav-item",
+    "to": "/parkings"
+  },
+  {
+    "name": "Se connecter",
+    "className": "nav-item nav-login-btn",
+    "to": "/login"
+  }
+]
