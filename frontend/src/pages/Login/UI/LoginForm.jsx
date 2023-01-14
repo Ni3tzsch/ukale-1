@@ -1,6 +1,13 @@
+import { useNavigate } from 'react-router-dom'
 import ukaleBrain from '/ukale-brain.svg'
 
 function LoginForm() {
+  const navigate = useNavigate()
+
+  const submitHandler = () => {
+    return navigate('/dashboard/parkings')
+  }
+
   return (
     <div className="light-shadow mx-auto w-fit rounded-xl bg-white px-6 pt-10 pb-14">
       <div className="w-full">
@@ -17,7 +24,10 @@ function LoginForm() {
         </h2>
       </div>
 
-      <form className="mt-6 flex flex-col items-center gap-6">
+      <form
+        className="mt-6 flex flex-col items-center gap-6"
+        onSubmit={submitHandler}
+      >
         <label htmlFor="email" className="flex flex-col gap-1">
           <span>Email</span>
           <input
@@ -35,7 +45,7 @@ function LoginForm() {
             type="password"
             id="password"
             className="rounded-md border border-gray-200 py-1 px-2"
-            placeholder=">= 6 caractères"
+            placeholder="Votre mot de passe"
             required
           />
         </label>
