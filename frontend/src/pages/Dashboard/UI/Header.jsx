@@ -5,7 +5,10 @@ function Header() {
   return (
     <header className="bg-white py-2">
       <nav className="container flex items-center justify-between">
-        <Link to="/dashboard" className="flex-center aspect-video h-12">
+        <Link
+          to="/dashboard/parkings"
+          className="flex-center aspect-video h-12"
+        >
           <img src={ukaleLogo} alt="Logo Ukalè" />
         </Link>
 
