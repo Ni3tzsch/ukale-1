@@ -1,0 +1,468 @@
+[
+  {
+    "name": "Parking Sorbonne",
+    "spots": [
+      {
+        "id": 1,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking Sorbonne",
+          "name": "Ando",
+          "surname": "Josué Félix",
+          "carId": "12Y322MD",
+          "spot": "001",
+          "debut": "09:31",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 2,
+        "isBusy": false
+      },
+      {
+        "id": 3,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking Sorbonne",
+          "name": "Camara",
+          "surname": "Aude",
+          "carId": "92Y510XF",
+          "spot": "003",
+          "debut": "08:01",
+          "end": "19:17",
+          "phone": "0120234350"
+        }
+      },
+      {
+        "id": 4,
+        "isBusy": false
+      },
+      {
+        "id": 5,
+        "isBusy": false
+      },
+      {
+        "id": 6,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking Sorbonne",
+          "name": "Sehi",
+          "surname": "David",
+          "carId": "23A777XF",
+          "spot": "006",
+          "debut": "13:37",
+          "end": "19:17",
+          "phone": "0576340934"
+        }
+      },
+      {
+        "id": 7,
+        "isBusy": false
+      },
+      {
+        "id": 8,
+        "isBusy": false
+      },
+      {
+        "id": 9,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking Sorbonne",
+          "name": "Adou",
+          "surname": "Parfait",
+          "carId": "00E613YZ",
+          "spot": "009",
+          "debut": "11:21",
+          "end": "19:17",
+          "phone": "01119834532"
+        }
+      },
+      {
+        "id": 10,
+        "isBusy": false
+      }
+    ]
+  },
+  {
+    "name": "Parking Longchamps",
+    "spots": [
+      {
+        "id": 1,
+        "isBusy": false
+      },
+      {
+        "id": 2,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking Longchamps",
+          "name": "Ando",
+          "surname": "Josué Félix",
+          "carId": "12Y322MD",
+          "spot": "002",
+          "debut": "09:31",
+          "end": "19:17",
+          "phone": "0100130355"
+        }
+      },
+      {
+        "id": 3,
+        "isBusy": false
+      },
+      {
+        "id": 4,
+        "isBusy": false
+      },
+      {
+        "id": 5,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking Longchamps",
+          "name": "Camara",
+          "surname": "Aude",
+          "carId": "92Y510XF",
+          "spot": "005",
+          "debut": "08:01",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 6,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking Longchamps",
+          "name": "Kouassi",
+          "surname": "Jean Brice",
+          "carId": "13S021TH",
+          "spot": "006",
+          "debut": "10:02",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 7,
+        "isBusy": false
+      },
+      {
+        "id": 8,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking Longchamps",
+          "name": "Adou",
+          "surname": "Parfait",
+          "carId": "00E613YZ",
+          "spot": "008",
+          "debut": "11:21",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 9,
+        "isBusy": false
+      },
+      {
+        "id": 10,
+        "isBusy": false
+      },
+      {
+        "id": 11,
+        "isBusy": false
+      },
+      {
+        "id": 12,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking Longchamps",
+          "name": "N'dri",
+          "surname": "Emmanuel",
+          "carId": "91S008ED",
+          "spot": "012",
+          "debut": "15:54",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Immeuble Mirabel",
+    "spots": [
+      {
+        "id": 1,
+        "isBusy": true,
+        "owner": {
+          "parking": "Immeuble Mirabel",
+          "name": "Silué",
+          "surname": "Yacouba",
+          "carId": "44F901BL",
+          "spot": "001",
+          "debut": "06:59",
+          "end": "19:17",
+          "phone": "0512872177"
+        }
+      },
+      {
+        "id": 2,
+        "isBusy": true,
+        "owner": {
+          "parking": "Immeuble Mirabel",
+          "name": "Koné",
+          "surname": "Ariel",
+          "carId": "03B661GG",
+          "spot": "002",
+          "debut": "08:21",
+          "end": "19:17",
+          "phone": "0778333120"
+        }
+      },
+      {
+        "id": 3,
+        "isBusy": true,
+        "owner": {
+          "parking": "Immeuble Mirabel",
+          "name": "Brou",
+          "surname": "Pacômes",
+          "carId": "32B445NJ",
+          "spot": "003",
+          "debut": "06:55",
+          "end": "19:10",
+          "phone": "0779610012"
+        }
+      },
+      {
+        "id": 4,
+        "isBusy": true,
+        "owner": {
+          "parking": "Immeuble Mirabel",
+          "name": "Yao",
+          "surname": "Yves Martial",
+          "carId": "23A777XF",
+          "spot": "004",
+          "debut": "07:11",
+          "end": "19:17",
+          "phone": "0112099106"
+        }
+      },
+      {
+        "id": 5,
+        "isBusy": true,
+        "owner": {
+          "parking": "Immeuble Mirabel",
+          "name": "Sery",
+          "surname": "Jean Brice",
+          "carId": "04H619GQ",
+          "spot": "005",
+          "debut": "08:08",
+          "end": "19:17",
+          "phone": "0504099191"
+        }
+      },
+      {
+        "id": 6,
+        "isBusy": true,
+        "owner": {
+          "parking": "Immeuble Mirabel",
+          "name": "Sehi",
+          "surname": "David",
+          "carId": "23A777XF",
+          "spot": "006",
+          "debut": "13:37",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 7,
+        "isBusy": true,
+        "owner": {
+          "parking": "Immeuble Mirabel",
+          "name": "Ando",
+          "surname": "Josué Félix",
+          "carId": "12Y322MD",
+          "spot": "001",
+          "debut": "09:31",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 8,
+        "isBusy": false
+      },
+      {
+        "id": 9,
+        "isBusy": true,
+        "owner": {
+          "parking": "Immeuble Mirabel",
+          "name": "Adou",
+          "surname": "Parfait",
+          "carId": "00E613YZ",
+          "spot": "009",
+          "debut": "11:21",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Parking St. Paul",
+    "spots": [
+      {
+        "id": 1,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking St. Paul",
+          "name": "Camara",
+          "surname": "Aude",
+          "carId": "92Y510XF",
+          "spot": "001",
+          "debut": "08:01",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 2,
+        "isBusy": false
+      },
+      {
+        "id": 3,
+        "isBusy": false
+      },
+      {
+        "id": 4,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking St. Paul",
+          "name": "Ando",
+          "surname": "Josué Félix",
+          "carId": "12Y322MD",
+          "spot": "004",
+          "debut": "09:31",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 5,
+        "isBusy": false
+      },
+      {
+        "id": 6,
+        "isBusy": true
+      },
+      {
+        "id": 7,
+        "isBusy": false
+      },
+      {
+        "id": 8,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking St. Paul",
+          "name": "Adou",
+          "surname": "Parfait",
+          "carId": "00E613YZ",
+          "spot": "008",
+          "debut": "11:21",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 9,
+        "isBusy": false
+      },
+      {
+        "id": 10,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking St. Paul",
+          "name": "N'dri",
+          "surname": "Emmanuel",
+          "carId": "91S008ED",
+          "spot": "010",
+          "debut": "15:54",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 11,
+        "isBusy": false
+      },
+      {
+        "id": 12,
+        "isBusy": false
+      },
+      {
+        "id": 13,
+        "isBusy": false
+      },
+      {
+        "id": 14,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking St. Paul",
+          "name": "N'dri",
+          "surname": "Emmanuel",
+          "carId": "91S008ED",
+          "spot": "012",
+          "debut": "15:54",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 15,
+        "isBusy": false
+      },
+      {
+        "id": 16,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking St. Paul",
+          "name": "N'dri",
+          "surname": "Emmanuel",
+          "carId": "91S008ED",
+          "spot": "012",
+          "debut": "15:54",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 17,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking St. Paul",
+          "name": "N'dri",
+          "surname": "Emmanuel",
+          "carId": "91S008ED",
+          "spot": "012",
+          "debut": "15:54",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      },
+      {
+        "id": 18,
+        "isBusy": true,
+        "owner": {
+          "parking": "Parking St. Paul",
+          "name": "N'dri",
+          "surname": "Emmanuel",
+          "carId": "91S008ED",
+          "spot": "018",
+          "debut": "15:54",
+          "end": "19:17",
+          "phone": "0707239145"
+        }
+      }
+    ]
+  }
+]

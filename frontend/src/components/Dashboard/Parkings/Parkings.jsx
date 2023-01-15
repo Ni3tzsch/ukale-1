@@ -1,13 +1,15 @@
 import { useState } from 'react'
-import pkgs from '../../../data/parkings.json'
+import { Outlet, useLocation } from 'react-router-dom'
 import { SingleParking } from './SingleParking'
+import pkgs from '../../../data/parkings.json'
 
-function Parking() {
+function Parkings() {
   const [parkings, setParkings] = useState(pkgs)
+  const { state } = useLocation()
 
   return (
-    <div className="flex w-full gap-3">
-      <div className="scrollbar-hide relative h-[calc(100vh_-_120px)] w-fit overflow-y-scroll pb-6 pr-4">
+    <div className="flex w-full gap-3 overflow-hidden rounded-xl">
+      <div className="scrollbar-hide relative h-[calc(100vh_-_120px)] w-fit shrink-0 overflow-y-scroll pb-6 pr-4">
         <div className="sticky top-0 rounded-lg bg-white/90 px-3 py-1 backdrop-blur-2xl">
           <h2 className="text-lg font-medium">Vos parkings</h2>
         </div>
@@ -18,11 +20,11 @@ function Parking() {
         </div>
       </div>
 
-      <div>
-        <h2>Aucun parking sélectionné</h2>
+      <div className="w-full">
+        {state ? <Outlet {...state} /> : <h2>Aucun parking sélectionné</h2>}
       </div>
     </div>
   )
 }
 
-export default Parking
+export default Parkings

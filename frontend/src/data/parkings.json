@@ -2,25 +2,25 @@
   {
     "id": 1,
     "name": "Parking Sorbonne",
-    "capacity": 150,
-    "occupation": 113
+    "capacity": 10,
+    "occupation": 4
   },
   {
     "id": 2,
     "name": "Parking Longchamps",
-    "capacity": 28,
-    "occupation": 7
+    "capacity": 13,
+    "occupation": 5
   },
   {
     "id": 3,
     "name": "Immeuble Mirabel",
-    "capacity": 100,
-    "occupation": 24
+    "capacity": 9,
+    "occupation": 8
   },
   {
     "id": 4,
     "name": "Parking St. Paul",
-    "capacity": 69,
-    "occupation": 58
+    "capacity": 18,
+    "occupation": 9
   }
 ]

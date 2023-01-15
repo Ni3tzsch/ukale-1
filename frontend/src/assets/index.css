@@ -30,6 +30,14 @@
   .header-logout-btn {
     @apply rounded-md bg-red-600 py-2 px-3 text-white;
   }
+
+  .car {
+    @apply aspect-video w-28 rounded-xl bg-red-600;
+  }
+
+  .info-card {
+    @apply rounded-xl bg-white px-6 pt-3 pb-5;
+  }
 }
 
 @layer utilities {

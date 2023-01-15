@@ -8,6 +8,8 @@ import { AddParking } from './components/Dashboard/AddParking'
 import { Gain } from './components/Dashboard/Gain'
 import { Setting } from './components/Dashboard/Setting'
 import { Help } from './components/Dashboard/Help'
+import { Parking } from './components/Dashboard/Parking'
+import { OwnerInfo } from './components/Dashboard/Parking/OwnerInfo'
 
 function App() {
   return (
@@ -15,7 +17,10 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />}>
-        <Route path="parkings" element={<Parkings />} />
+        <Route path="parkings" element={<Parkings />}>
+          <Route path=":id" element={<Parking />} />
+          <Route path=":parkingName/owner/:cardId" element={<OwnerInfo />} />
+        </Route>
         <Route path="history" element={<History />} />
         <Route path="add-parking" element={<AddParking />} />
         <Route path="gains" element={<Gain />} />
