@@ -38,9 +38,14 @@ function SingleParking({ id, name, capacity, occupation }) {
               style={{ width: occupationRate + '%' }}
             />
           </div>
-          <span className="text-xs font-medium">
-            {occupation + '/' + capacity}
-          </span>
+          <div className="flex justify-between">
+            <span className="text-xs font-medium">
+              {occupation + '/' + capacity}
+            </span>
+            <span className="text-xs font-medium">
+              {occupationRate.toFixed(0)}%
+            </span>
+          </div>
         </div>
       </div>
     </Link>
