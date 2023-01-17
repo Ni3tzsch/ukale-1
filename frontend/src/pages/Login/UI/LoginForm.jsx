@@ -9,7 +9,7 @@ function LoginForm() {
   }
 
   return (
-    <div className="light-shadow mx-auto w-fit rounded-xl bg-white px-6 pt-10 pb-14">
+    <div className="light-shadow mx-auto w-fit rounded-xl bg-white px-4 pt-10 pb-14">
       <div className="w-full">
         <div className="mx-auto aspect-video w-64">
           <img

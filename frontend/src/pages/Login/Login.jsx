@@ -5,7 +5,7 @@ import { LoginForm } from './UI/LoginForm'
 
 function Login() {
   return (
-    <div id="login" className="relative pt-6 pb-10">
+    <div id="login" className="relative pt-10 pb-10">
       <Link to="/" className="login-back-btn group">
         <IoClose className="text-gray-500 group-hover:text-white" />
       </Link>
