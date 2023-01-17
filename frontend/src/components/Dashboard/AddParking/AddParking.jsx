@@ -40,6 +40,7 @@ function AddParking() {
                       type={data.input.type}
                       className={className}
                       id={data.id}
+                      required
                     />
                   </label>
                 )
@@ -58,6 +59,7 @@ function AddParking() {
                       type={data.input.type}
                       className={className}
                       id={data.id}
+                      required
                     />
                   </label>
                 )

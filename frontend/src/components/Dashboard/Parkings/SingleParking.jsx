@@ -42,6 +42,8 @@ function SingleParking({ parking, logs }) {
     return `bg-blue-400 h-full rounded-full`
   }
 
+  console.log(name)
+
   return (
     <Link
       key={id}
@@ -56,7 +58,7 @@ function SingleParking({ parking, logs }) {
       <div className="flex w-full items-center gap-2">
         <div className="h-20 w-20 shrink-0 overflow-hidden rounded-full">
           {/* <img src="" alt={name} /> */}
-          <div className="h-full w-full bg-gray-500" />
+          <div className="h-full w-full bg-gray-500"></div>
         </div>
 
         <div className="flex w-full flex-col gap-1">

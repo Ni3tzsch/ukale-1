@@ -20,7 +20,7 @@ function Header() {
             </div>
           </li>
           <li>
-            <NavLink to="/" className="header-logout-btn">
+            <NavLink to="/login" className="header-logout-btn">
               Déconnexion
             </NavLink>
           </li>
