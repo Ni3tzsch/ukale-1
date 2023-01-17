@@ -30,13 +30,23 @@ function GainChart({ capacity, occupation }) {
           parseFloat(capacity) - parseFloat(occupation),
         ],
         backgroundColor: [`${setOccupationColor()}`, '#ffffff'],
-        borderColor: [`${setOccupationColor()}`, '#ffffff'],
+        borderColor: [`${setOccupationColor()}`, '#f2f2f2'],
         borderWidth: 1,
       },
     ],
   }
 
-  return <Doughnut data={data} />
+  const options = {
+    responsive: true,
+    plugins: {
+      legend: {
+        display: true,
+        position: 'bottom',
+      },
+    },
+  }
+
+  return <Doughnut data={data} options={options} />
 }
 
 export { GainChart }
