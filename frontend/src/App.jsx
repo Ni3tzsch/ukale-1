@@ -10,6 +10,7 @@ import { Setting } from './components/Dashboard/Setting'
 import { Help } from './components/Dashboard/Help'
 import { Parking } from './components/Dashboard/Parking'
 import { OwnerInfo } from './components/Dashboard/Parking/OwnerInfo'
+import { Table } from './components/Dashboard/History/Table'
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
           <Route path=":id" element={<Parking />} />
           <Route path=":parkingName/owner/:cardId" element={<OwnerInfo />} />
         </Route>
-        <Route path="history" element={<History />} />
+        <Route path="history" element={<History />}>
+          <Route path=":id" element={<Table />} />
+        </Route>
         <Route path="add-parking" element={<AddParking />} />
         <Route path="gains" element={<Gain />} />
         <Route path="settings" element={<Setting />} />

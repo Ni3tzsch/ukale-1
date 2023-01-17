@@ -38,6 +38,10 @@
   .info-card {
     @apply rounded-xl bg-white px-6 pt-3 pb-5;
   }
+
+  .page-title {
+    @apply mb-10 text-3xl font-bold;
+  }
 }
 
 @layer utilities {

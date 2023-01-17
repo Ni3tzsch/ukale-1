@@ -2,9 +2,11 @@ import { useState } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import { SingleParking } from './SingleParking'
 import pkgs from '../../../data/parkings.json'
+import log from '../../../data/logs.json'
 
 function Parkings() {
   const [parkings, setParkings] = useState(pkgs)
+  const [logs, setLogs] = useState(log)
   const { state } = useLocation()
 
   return (
@@ -15,7 +17,9 @@ function Parkings() {
         </div>
         <div className="mt-4 flex flex-col gap-6">
           {parkings.map((parking) => {
-            return <SingleParking key={parking.id} {...parking} />
+            return (
+              <SingleParking key={parking.id} parking={parking} logs={logs} />
+            )
           })}
         </div>
       </div>

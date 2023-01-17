@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import ukaleLogo from '/logo-ukale.svg'
+import user from '/user.png'
 
 function Header() {
   return (
@@ -14,8 +15,8 @@ function Header() {
 
         <ul className="flex items-center gap-4">
           <li>
-            <div className="center flex-center h-10 w-10 rounded-full bg-slate-500">
-              <span>U</span>
+            <div className="center flex-center h-9 w-9 rounded-full bg-slate-500">
+              <img src={user} alt="User profile picture" />
             </div>
           </li>
           <li>

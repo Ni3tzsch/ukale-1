@@ -1,7 +1,32 @@
-import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
-function SingleParking({ id, name, capacity, occupation }) {
+function SingleParking({ parking, logs }) {
+  const { id, name, capacity, occupation } = parking
+  const location = useLocation()
   const occupationRate = (occupation / capacity) * 100
+  const [destnation, setDestination] = useState(location.pathname)
+
+  useEffect(() => {
+    if (location.pathname.includes('/dashboard/history/')) {
+      return setDestination('/dashboard/history')
+    }
+
+    if (location.pathname.includes('/dashboard/parkings/')) {
+      return setDestination('/dashboard/parkings')
+    }
+
+    setDestination((prev) => {
+      if (location.pathname.includes('/dashboard/parkings')) {
+        return prev
+      }
+
+      if (location.pathname.includes('/dashboard/history')) {
+        return prev
+      }
+    })
+  }, [location.pathname])
 
   const setProgressBarClass = (rate) => {
     const percent = rate * 100
@@ -20,9 +45,13 @@ function SingleParking({ id, name, capacity, occupation }) {
   return (
     <Link
       key={id}
-      to={`/dashboard/parkings/${id}`}
+      to={`${
+        destnation === '/dashboard/parkings/'
+          ? `${destnation + id.toString()}`
+          : destnation + '/' + logs[id - 1].id.toString()
+      }`}
       className="w-full max-w-[18rem] rounded-xl bg-white py-2 px-3.5"
-      state={{ id, name }}
+      state={{ id, name, logData: logs }}
     >
       <div className="flex w-full items-center gap-2">
         <div className="h-20 w-20 shrink-0 overflow-hidden rounded-full">
