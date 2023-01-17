@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "parking": "Parking Sorbonne",
+    "rates": {
+      "january": "671",
+      "february": "902",
+      "march": "1130"
+    }
+  },
+  {
+    "id": 2,
+    "parking": "Parking Longchamps",
+    "rates": {
+      "january": "975",
+      "february": "1243",
+      "march": "1004"
+    }
+  },
+  {
+    "id": 3,
+    "parking": "Immeuble Mirabel",
+    "rates": {
+      "january": "1801",
+      "february": "872",
+      "march": "957"
+    }
+  },
+  {
+    "id": 4,
+    "parking": "Parking St. Paul",
+    "rates": {
+      "january": "783",
+      "february": "342",
+      "march": "1017"
+    }
+  }
+]
