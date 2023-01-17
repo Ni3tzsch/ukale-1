@@ -1,0 +1,54 @@
+{
+  "left": [
+    {
+      "id": 1,
+      "name": "Nom du parking",
+      "htmlId": "name",
+      "input": {
+        "type": "text"
+      }
+    },
+    {
+      "id": 2,
+      "name": "N° de téléphone",
+      "htmlId": "tel",
+      "input": {
+        "type": "tel"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Email",
+      "htmlId": "email",
+      "input": {
+        "type": "email"
+      }
+    }
+  ],
+  "right": [
+    {
+      "id": 4,
+      "name": "Localisation (commune)",
+      "htmlId": "localisation",
+      "input": {
+        "type": "text"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Nom de l'emplacement",
+      "htmlId": "spot-name",
+      "input": {
+        "type": "text"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Nombre de place",
+      "htmlId": "places",
+      "input": {
+        "type": "number"
+      }
+    }
+  ]
+}
