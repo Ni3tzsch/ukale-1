@@ -5,32 +5,32 @@
       "parking": "Parking Sorbonne",
       "carId": "44F901BL",
       "spot": "001",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "date": "23-12-2022",
+      "cost": "300"
     },
     {
       "id": 2,
       "parking": "Parking Sorbonne",
-      "carId": "44F901BL",
-      "spot": "001",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "carId": "09F002AE",
+      "spot": "002",
+      "date": "18-01-2023",
+      "cost": "1500"
     },
     {
       "id": 3,
       "parking": "Parking Sorbonne",
-      "carId": "44F901BL",
-      "spot": "001",
+      "carId": "67F901BL",
+      "spot": "003",
       "date": "02-01-2023",
-      "cost": "1300"
+      "cost": "500"
     },
     {
       "id": 4,
       "parking": "Parking Sorbonne",
-      "carId": "44F901BL",
-      "spot": "001",
+      "carId": "95J887HC",
+      "spot": "004",
       "date": "02-01-2023",
-      "cost": "1300"
+      "cost": "600"
     }
   ],
   "parking_2": [
@@ -38,67 +38,107 @@
       "id": 1,
       "parking": "Parking Longchamps",
       "carId": "12Y322MD",
-      "spot": "002",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "spot": "001",
+      "date": "25-11-2022",
+      "cost": "700"
     },
     {
       "id": 2,
       "parking": "Parking Longchamps",
       "carId": "12Y322MD",
       "spot": "002",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "date": "11-01-2023",
+      "cost": "400"
     },
     {
       "id": 3,
       "parking": "Parking Longchamps",
       "carId": "12Y322MD",
-      "spot": "002",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "spot": "003",
+      "date": "22-12-2022",
+      "cost": "1000"
     },
     {
       "id": 4,
       "parking": "Parking Longchamps",
       "carId": "12Y322MD",
-      "spot": "002",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "spot": "004",
+      "date": "14-01-2023",
+      "cost": "1650"
+    },
+    {
+      "id": 5,
+      "parking": "Parking Longchamps",
+      "carId": "15Y322KD",
+      "spot": "005",
+      "date": "19-01-2023",
+      "cost": "1800"
     }
   ],
   "parking_3": [
     {
       "id": 1,
       "parking": "Immeuble Mirabel",
-      "carId": "44F901BL",
-      "spot": "002",
+      "carId": "79N291HG",
+      "spot": "001",
       "date": "02-01-2023",
-      "cost": "1300"
+      "cost": "1400"
     },
     {
       "id": 2,
       "parking": "Immeuble Mirabel",
-      "carId": "44F901BL",
+      "carId": "34K892OP",
       "spot": "002",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "date": "12-11-2022",
+      "cost": "700"
     },
     {
       "id": 3,
       "parking": "Immeuble Mirabel",
       "carId": "44F901BL",
-      "spot": "002",
+      "spot": "003",
       "date": "02-01-2023",
-      "cost": "1300"
+      "cost": "500"
     },
     {
       "id": 4,
       "parking": "Immeuble Mirabel",
-      "carId": "44F901BL",
-      "spot": "002",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "carId": "47T771XY",
+      "spot": "004",
+      "date": "03-01-2023",
+      "cost": "1700"
+    },
+    {
+      "id": 5,
+      "parking": "Immeuble Mirabel",
+      "carId": "99G671XK",
+      "spot": "005",
+      "date": "18-01-2023",
+      "cost": "800"
+    },
+    {
+      "id": 6,
+      "parking": "Immeuble Mirabel",
+      "carId": "09X009AB",
+      "spot": "006",
+      "date": "11-12-2022",
+      "cost": "300"
+    },
+    {
+      "id": 7,
+      "parking": "Immeuble Mirabel",
+      "carId": "77B777PP",
+      "spot": "007",
+      "date": "15-01-2023",
+      "cost": "600"
+    },
+    {
+      "id": 8,
+      "parking": "Immeuble Mirabel",
+      "carId": "92B990DF",
+      "spot": "008",
+      "date": "09-01-2023",
+      "cost": "1100"
     }
   ],
   "parking_4": [
@@ -106,32 +146,72 @@
       "id": 1,
       "parking": "Parking St. Paul",
       "carId": "92Y510XF",
-      "spot": "002",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "spot": "001",
+      "date": "11-12-2022",
+      "cost": "600"
     },
     {
       "id": 2,
       "parking": "Parking St. Paul",
-      "carId": "92Y510XF",
+      "carId": "78I218WF",
       "spot": "002",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "date": "12-12-2022",
+      "cost": "900"
     },
     {
       "id": 3,
       "parking": "Parking St. Paul",
-      "carId": "92Y510XF",
-      "spot": "002",
-      "date": "02-01-2023",
-      "cost": "1300"
+      "carId": "96N514LW",
+      "spot": "003",
+      "date": "11-11-2022",
+      "cost": "1500"
     },
     {
       "id": 4,
       "parking": "Parking St. Paul",
-      "carId": "92Y510XF",
+      "carId": "00G556VJ",
       "spot": "002",
-      "date": "02-01-2023",
+      "date": "12-11-2022",
+      "cost": "700"
+    },
+    {
+      "id": 5,
+      "parking": "Parking St. Paul",
+      "carId": "00Y510JK",
+      "spot": "005",
+      "date": "05-01-2023",
+      "cost": "600"
+    },
+    {
+      "id": 6,
+      "parking": "Parking St. Paul",
+      "carId": "88I218JQ",
+      "spot": "006",
+      "date": "14-12-2023",
+      "cost": "900"
+    },
+    {
+      "id": 7,
+      "parking": "Parking St. Paul",
+      "carId": "76B345OP",
+      "spot": "007",
+      "date": "23-12-2022",
+      "cost": "1500"
+    },
+    {
+      "id": 8,
+      "parking": "Parking St. Paul",
+      "carId": "00G556VJ",
+      "spot": "008",
+      "date": "12-11-2022",
+      "cost": "700"
+    },
+    {
+      "id": 9,
+      "parking": "Parking St. Paul",
+      "carId": "00R891UI",
+      "spot": "009",
+      "date": "07-12-2022",
       "cost": "1300"
     }
   ]
