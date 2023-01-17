@@ -48,7 +48,7 @@ function SingleParking({ parking, logs }) {
       to={`${
         destnation === '/dashboard/parkings/'
           ? `${destnation + id.toString()}`
-          : destnation + '/' + logs[id - 1].id.toString()
+          : destnation + '/' + id.toString()
       }`}
       className="w-full max-w-[18rem] rounded-xl bg-white py-2 px-3.5"
       state={{ id, name, logData: logs }}
