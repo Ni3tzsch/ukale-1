@@ -4,11 +4,11 @@ import sbItems from '../../../../data/sidebarItems'
 function Sidebar() {
   const setActiveStyle = ({ isActive }) => {
     const sameClass =
-      'px-2 py-1 flex items-center gap-2 border rounded-md hover:bg-blue-400 hover:text-white'
+      'px-2 py-1 flex items-center gap-2 border rounded-md hover:bg-blue-600 hover:text-white'
     if (!isActive) {
       return `${sameClass} border-gray-200/50`
     }
-    return `${sameClass} border-blue-400 bg-blue-400 text-white`
+    return `${sameClass} border-blue-600 bg-blue-600 text-white`
   }
 
   return (

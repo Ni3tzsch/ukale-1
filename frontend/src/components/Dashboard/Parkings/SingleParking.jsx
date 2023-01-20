@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { getFirstLetter } from '../../../utils/getFirstLetters'
 
 function SingleParking({ parking, logs }) {
-  const { id, name, capacity, occupation } = parking
+  const { id, name, capacity, occupation, image } = parking
   const location = useLocation()
   const occupationRate = (occupation / capacity) * 100
   const [destnation, setDestination] = useState(location.pathname)
+  const { first, second, third } = getFirstLetter(name)
 
   useEffect(() => {
     if (location.pathname.includes('/dashboard/history/')) {
@@ -56,9 +58,14 @@ function SingleParking({ parking, logs }) {
       state={{ id, name, logData: logs }}
     >
       <div className="flex w-full items-center gap-2">
-        <div className="h-20 w-20 shrink-0 overflow-hidden rounded-full">
-          {/* <img src="" alt={name} /> */}
-          <div className="h-full w-full bg-gray-500"></div>
+        <div className="h-20 w-20 shrink-0 overflow-hidden rounded-full bg-gray-500">
+          {image ? (
+            <img src={image} alt={name} />
+          ) : (
+            <div className="flex-center h-full w-full bg-gray-500 text-xl font-medium text-white">
+              {first + second}
+            </div>
+          )}
         </div>
 
         <div className="flex w-full flex-col gap-1">
